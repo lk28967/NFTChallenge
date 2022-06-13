@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    max-width: 375px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 9vh 3.5vw;
+    height: 75vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.box {
+    margin-bottom: 1.5vh;
+    border-radius: .5rem;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: white;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.logo {
+    width: 2.6vw;
+    height: 2.6vh;
+    padding-top: .5vh;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(178, 100%, 50%);
+    margin: 0 2vw;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.clock {
+    width: 4.8vw;
+    height: 4.8vw;
+    padding-top: .3vh;
+}
+
+h4 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin: 0 2vw;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.avatar {
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+
+.creation {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.name {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
