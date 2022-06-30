@@ -30,8 +30,8 @@ main {
 .images {
     background-color:hsl(178, 100%, 50%);
     border-radius: 8px;
-    max-width: 294px;
-    max-height: 294px;
+    max-width: 300px;
+    max-height: 300px;
     position: relative;
     display: inline-block;
 }
